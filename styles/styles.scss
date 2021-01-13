@@ -1,0 +1,43 @@
+// Colors
+// Primary
+
+$DarkCyan: hsl(185, 75%, 39%);
+$Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+$Dark-grayish-blue: hsl(227, 10%, 46%);
+
+// Neutral
+$Darkgray: hsl(0, 0%, 59%);
+
+//Font size
+$fontsize: 18px;
+
+//Font family
+$fontfamily: 'Kumbh Sans', sans-serif;
+
+.card{
+    display: flex;
+    flex-flow: column;
+    width: 350px;
+    height: 830px;
+    font-family: $fontfamily;
+}
+
+.imgAvatar{
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    position: absolute;
+}
+
+h3{
+    font-size: $fontsize;
+}
+
+.stadisticsInfo{
+    display: flex;
+    justify-content: space-around;
+
+    .stats{
+        justify-content: center;    
+    }
+}

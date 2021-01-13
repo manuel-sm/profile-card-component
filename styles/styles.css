@@ -1,0 +1,28 @@
+.card {
+  display: flex;
+  flex-flow: column;
+  width: 350px;
+  height: 830px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.imgAvatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 100%;
+  position: absolute;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.stadisticsInfo {
+  display: flex;
+  justify-content: space-around;
+}
+.stadisticsInfo .stats {
+  justify-content: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
