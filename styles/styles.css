@@ -1,16 +1,63 @@
+body {
+  background-color: #19a2ae;
+  position: relative;
+  background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+}
+
 .card {
   display: flex;
   flex-flow: column;
+  background-color: white;
   width: 350px;
-  height: 830px;
   font-family: "Kumbh Sans", sans-serif;
+  margin-top: 100px;
+  border-radius: 15px;
 }
 
-.imgAvatar {
+.bg-image {
+  position: relative;
+}
+
+.bg-container img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.avatar-container {
+  position: absolute;
+  left: 122px;
+  top: 90px;
+}
+.avatar-container img {
   width: 96px;
   height: 96px;
   border-radius: 100%;
-  position: absolute;
+  border: white 7px solid;
+}
+
+.userInfo {
+  margin-top: 60px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.userInfo .age {
+  font-weight: normal;
+  color: #969696;
+}
+.userInfo h3 {
+  color: #2d3248;
+}
+.userInfo p {
+  color: #969696;
 }
 
 h3 {
@@ -20,9 +67,20 @@ h3 {
 .stadisticsInfo {
   display: flex;
   justify-content: space-around;
+  border-top: 1px solid #969696;
+  padding: 10px 10px;
 }
 .stadisticsInfo .stats {
-  justify-content: center;
+  text-align: center;
+}
+.stadisticsInfo .stats h3 {
+  margin-bottom: 0;
+  color: #2d3248;
+}
+.stadisticsInfo .stats p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #969696;
 }
 
 /*# sourceMappingURL=styles.css.map */
