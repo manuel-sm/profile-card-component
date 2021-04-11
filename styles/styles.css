@@ -34,8 +34,6 @@ section {
 }
 
 .card-header {
-  background-image: url("./images/bg-pattern-card.svg");
-  background-size: cover;
   height: 150px;
 }
 
@@ -45,8 +43,8 @@ section {
   border-radius: 50%;
   border: 5px solid white;
   overflow: hidden;
-  border: white 5px solid;
   margin: -55px auto 30px auto;
+  position: relative;
 }
 
 .img-holder img {
